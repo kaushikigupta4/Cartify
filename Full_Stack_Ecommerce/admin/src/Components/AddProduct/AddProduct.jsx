@@ -12,7 +12,7 @@ const AddProduct = () => {
     image: "",
     category: "women",
     new_price: "",
-    old_price: ""
+    old_price: ""                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
   });
 
   const AddProduct = async () => {

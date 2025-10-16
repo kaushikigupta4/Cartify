@@ -6,12 +6,14 @@ const multer = require("multer");
 const path = require("path");
 const cors = require("cors");
 const port = process.env.PORT || 4000;
+const dotenv= require("dotenv");
+dotenv.config();
 
 app.use(express.json());
 app.use(cors());
 
 // Database Connection With MongoDB
-mongoose.connect("mongodb+srv://kaushikigupta1127_db_user:cmm9JnfMhV9LbshJ@cluster0.inphphl.mongodb.net/");
+mongoose.connect(process.env.MONGO_URL);
 
 
 
