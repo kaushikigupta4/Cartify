@@ -59,5 +59,36 @@ Port=
 MONGO_URL=
 SECRET_KEY=
 
+5.Run the application
+cd frontend
+npm run start
+
+cd backend
+npm run start
+
+cd admin
+npm run dev
+
+```
+### Full_Stack_Ecommerce/
+```
+├─ backend/           # Node.js + Express backend
+├─ frontend/          # React frontend
+├─ admin-backend/     # admin
+```
+### Author
+Kaushiki Gupta
+
+### Deployment
+https://cartify-1-kaid.onrender.com/
+
+
+
+
+
+
+
+
+
 
 
