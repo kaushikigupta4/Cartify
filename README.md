@@ -21,10 +21,10 @@ This is a **Full Stack E-commerce Application** built with **MERN stack (MongoDB
 - Image upload with Multer
 - MongoDB database
 
-### Admin Panel (Optional)
+### Admin Panel 
 - Add / remove products
 - Manage categories
-- View all orders (if implemented)
+- View all orders 
 
 ---
 
@@ -33,7 +33,7 @@ This is a **Full Stack E-commerce Application** built with **MERN stack (MongoDB
 - **Frontend:** React, Axios, HTML, CSS
 - **Backend:** Node.js, Express.js, Multer, JWT
 - **Database:** MongoDB
-- **Deployment:** Vercel / Netlify (Frontend), Render / Railway / Heroku (Backend)
+- **Deployment:**  Render 
 
 ---
 
@@ -42,4 +42,22 @@ This is a **Full Stack E-commerce Application** built with **MERN stack (MongoDB
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME.git
+git clone https://github.com/kaushikigupta4/Cartify.git
+
+2. Install dependencies for backend:
+
+cd backend
+npm install
+
+3.Install dependencies for backend:
+
+cd ../frontend
+npm install
+
+4.Setup environment variables in .env files:
+Port=
+MONGO_URL=
+SECRET_KEY=
+
+
+
